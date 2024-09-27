@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Application</title>
+    <link rel="stylesheet" href="typing.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <p id="sentence">The quick brown fox jumps over the lazy dog.</p>
+        <textarea id="input-area" placeholder="Start typing..."></textarea>
+        <div class="stats">
+            <p>Time: <span id="time">0</span> seconds</p>
+            <p>Word Count: <span id="word-count">0</span></p>
+            <p>Time: <span id="wpm">0</span></p>
+        </div>
+        <button id="reset-button">Restart</button>
+    </div>
+    
+    <script src="typing.js"></script>
+</body>
+</html>
